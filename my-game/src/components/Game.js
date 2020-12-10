@@ -58,7 +58,7 @@ export default class Game extends React.Component {
       // updating the x is next
       xIsNext: !this.state.xIsNext,
       // the length of the history
-      stepNumber: history.length.length,
+      stepNumber: history.length,
     });
   }
   // define the render function 4 properties
